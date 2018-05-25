@@ -21,4 +21,5 @@ function next() {
 }
 function show() {
     elem.children[current].style.display = "block";
+    document.getElementById("caption").innerHTML = elem.children[current].alt;
 }
